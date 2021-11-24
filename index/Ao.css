@@ -1,0 +1,232 @@
+*
+{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed',sans-serif,Arial,sans-serif;
+}
+body
+{
+    background: #252a2b;
+}
+.header
+{
+    z-index: 1;
+    background: #252a2b;
+    display: flex;
+    height: 4em;
+    line-height: 4em;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.Logo
+{
+    color: white;
+    font-size: 40px;
+    padding-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+.menu
+{
+    display: flex;
+    /*padding-right: 50px;*/
+    font-weight: bolder;
+    justify-content: space-around;
+}
+.menu li
+{
+    padding-right: 2em;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu li a
+{
+    color: white;
+}
+.menu li a:hover
+{
+
+    color: orangered;
+    transition: color .3s ease-out;
+}
+.down
+{
+    margin: 0px auto;
+    width: 125px;
+    height: 200x;
+    background: #252a2b;
+    position: absolute;
+    display: none;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 35px;
+
+}
+.down li
+{
+    text-align: left;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid gray;
+    left: 5px;
+}
+.down li a:hover
+{
+    color: orangered;
+}
+.menu .link:hover .down
+{
+    display: block;
+}
+div .title1 p.tieude
+{
+    border-bottom: 1px solid white;
+}
+#wrapper
+{
+    max-width: 1270px;
+    margin: 0 auto;
+}
+.headline
+{
+    text-align: center;
+    margin: 40px 0px;
+    overflow: auto;
+}
+i
+{
+    color: white;   
+}
+.menu li a i:hover
+{
+    color: orangered;
+    transition: color .3s ease-out;
+}
+.anhbia
+{
+    padding: 0px 0px;
+}
+.tieude
+{
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase; 
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    border-top: 1px solid gray;
+}
+.title1
+{
+    width: 1500px;
+    margin: 0px auto;
+    text-align: center;
+}
+/*.tieude3
+{
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase; 
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    border-top: 1px solid gray;
+}*/
+ul.product
+{
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+ul.product li
+{
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-basis: 25%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+ul.product li img
+{
+    height: auto;
+}
+ul.product li a img
+{
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+ul.product li .top
+{
+    position: relative;
+    overflow: hidden;
+}
+ul.product li .top .thumb
+{
+    display: block;
+}
+ul.product li .top .thumb img
+{
+    display: block;
+    height: 360px;
+    width: 500px;
+}
+ul.product li .top a.buy
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -38px;
+    width: 100%;
+    transition: 0.25s ease-in-out;
+} 
+ul.product li:hover a.buy
+{
+    bottom: 0px;
+}
+ul.product li .info 
+{
+    padding: 15px 0px;
+}
+ul.product li .info a
+{
+    display: block;
+    text-decoration: none;
+    padding: 20px 0px;
+}
+ul.product li .info a.cat
+{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    padding: 3px 0px;
+    text-align: center;
+    font-size: 15px;
+}
+ul.product li .info a.name
+{
+    color: white;
+    padding: 3px 0px;
+    text-align: center;
+}
+ul.product li .info .price
+{
+    color: white;
+    padding: 2px 0px;
+    font-weight: bold;
+    text-align: center;
+}
